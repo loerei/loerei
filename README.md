@@ -3,7 +3,7 @@
 <h4 align="center">Desktop App Developer</h4>
 
 <p align="center">
-  Building desktop applications for our Quality of Life. I attack cat tummies.
+  Building Desktop Applications and WebUI Tools for our Quality of Life. I attack cat tummies.
 </p>
 
 <div align="center">
@@ -76,13 +76,29 @@
 
 ###
 
-<div align="center">
-  <img src="https://github-readme-stats.shion.dev/api?username=loerei&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph" />
-</div>
+<h6 align="center">Featured Projects</h6>
 
 ###
 
 <div align="center">
+  <a href="https://github.com/loerei/YumeShelf" target="_blank">
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=YumeShelf&theme=dracula" height="120" alt="YumeShelf" />
+  </a>
+  <img width="16" />
+  <a href="https://github.com/loerei/Auto-Mudae" target="_blank">
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=Auto-Mudae&theme=dracula" height="120" alt="Auto-Mudae" />
+  </a>
+</div>
+
+###
+
+<h6 align="center">GitHub Statistics</h6>
+
+###
+
+<div align="center">
+  <img src="https://github-readme-stats.shion.dev/api?username=loerei&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph" />
+  <img width="16" />
   <img src="https://streak-stats.demolab.com?user=loerei&theme=dracula&hide_border=false&border_radius=5" height="150" alt="streak graph" />
 </div>
 
