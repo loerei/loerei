@@ -85,8 +85,8 @@
     <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=YumeShelf&theme=dracula" height="120" alt="YumeShelf" />
   </a>
   <img width="16" />
-  <a href="https://github.com/loerei/Auto-Mudae" target="_blank">
-    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=Auto-Mudae&theme=dracula" height="120" alt="Auto-Mudae" />
+  <a href="https://github.com/loerei/patchitRIGHT" target="_blank">
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=patchitRIGHT&theme=dracula" height="120" alt="patchitRIGHT" />
   </a>
 </div>
 
