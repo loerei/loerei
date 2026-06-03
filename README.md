@@ -7,9 +7,10 @@
 </p>
 
 <div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=loerei.loerei&" alt="visitor badge" />
-  <img src="https://img.shields.io/badge/ 🎓 university-hust-red" alt="university: HUST" />
-  <img src="https://img.shields.io/badge/🍱 hobby-マケイン-green" alt="hobby: マケイン" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=loerei.loerei&left_text=Visitors&left_color=grey&right_color=%23333333" alt="Visitor Badge" />
+  <img src="https://img.shields.io/badge/🎓_University-HUST-red" alt="University: HUST" />
+  <img src="https://img.shields.io/badge/🍱_Hobby-マケイン-2E4A78" alt="Hobby: マケイン" />
+  <img src="https://img.shields.io/badge/✨_AI_Assisted-Yes-green" alt="AI Assisted: Yes" />
 
   <img src="https://img.shields.io/github/followers/loerei?label=Follow&style=social" alt="GitHub followers" />
   <img src="https://img.shields.io/github/stars/loerei?label=Stars&style=social" alt="GitHub stars" />
