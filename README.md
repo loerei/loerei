@@ -112,5 +112,5 @@
 ###
 
 <div align="center">
-  <img src="cats-plushies.gif" width="300" alt="Watamelo" />
+  <img src="watamelo.gif" width="300" alt="Watamelo" />
 </div>
