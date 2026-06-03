@@ -112,5 +112,5 @@
 ###
 
 <div align="center">
-  <img src="cats-plushies.gif" width="300" alt="Cats and Plushies" />
+  <img src="cats-plushies.gif" width="300" alt="Watamelo" />
 </div>
