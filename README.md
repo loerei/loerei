@@ -103,13 +103,9 @@
   <img src="https://streak-stats.demolab.com?user=loerei&theme=dracula&hide_border=false&border_radius=5" height="150" alt="streak graph" />
 </div>
 
-###
-
 <div align="center">
   <img src="https://raw.githubusercontent.com/loerei/loerei/trophies/trophies.svg?v=1" height="150" alt="trophy graph" />
 </div>
-
-###
 
 <div align="center">
   <img src="watamelo.gif" width="300" alt="Watamelo" />
