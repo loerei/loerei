@@ -106,7 +106,7 @@
 ###
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/loerei/loerei/trophies/trophies.svg" height="150" alt="trophy graph" />
+  <img src="https://raw.githubusercontent.com/loerei/loerei/trophies/trophies.svg?v=1" height="150" alt="trophy graph" />
 </div>
 
 ###
