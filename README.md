@@ -1,6 +1,6 @@
 <h1 align="center">Loerei</h1>
 
-<h4 align="center">Desktop App Developer</h4>
+<h4 align="center">Desktop Apps & Developer Tools Engineer<br>Freelancer · Open Sourcer</h4>
 
 <p align="center">
   Building Desktop Applications and WebUI Tools for our Quality of Life. I attack cat tummies.
@@ -29,15 +29,11 @@
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=nodejs" height="60" alt="nodejs logo" />
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=react" height="60" alt="react logo" />
-  <img width="12" />
   <img src="https://skillicons.dev/icons?i=electron" height="60" alt="electron logo" />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=rust" height="60" alt="rust logo" />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=py" height="60" alt="python logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=vite" height="60" alt="vite logo" />
 </div>
 
 ###
@@ -49,7 +45,9 @@
 <div align="center">
   <img src="https://skillicons.dev/icons?i=git" height="60" alt="git logo" />
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=docker" height="60" alt="docker logo" />
+  <img src="https://skillicons.dev/icons?i=react" height="60" alt="react logo" />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=vite" height="60" alt="vite logo" />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=cpp" height="60" alt="cpp logo" />
   <img width="12" />
@@ -58,6 +56,8 @@
   <img src="https://skillicons.dev/icons?i=html" height="60" alt="html logo" />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=css" height="60" alt="css logo" />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=sqlite" height="60" alt="sqlite logo" />
 </div>
 
 ###
