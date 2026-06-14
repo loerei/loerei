@@ -2,7 +2,7 @@ name: Update README Trophies
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Chạy lúc 00:00 UTC hàng ngày
+    - cron: "0 */12 * * *" # Chạy mỗi 12 tiếng (2 lần/ngày)
   workflow_dispatch: # Cho phép kích hoạt thủ công từ giao diện GitHub Actions
 
 jobs:
