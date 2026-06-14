@@ -1,0 +1,35 @@
+name: Update README Trophies
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Chạy lúc 00:00 UTC hàng ngày
+  workflow_dispatch: # Cho phép kích hoạt thủ công từ giao diện GitHub Actions
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create output directory
+        run: mkdir -p output
+
+      - name: Generate trophy card
+        uses: soulteary/github-profile-trophy-action@v1.0.0
+        with:
+          options: 'username=loerei&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false'
+          path: output/trophies.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Deploy Trophies to separate branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
+          publish_branch: trophies
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: 'chore: update trophies'

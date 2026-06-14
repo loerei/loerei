@@ -106,7 +106,7 @@
 ###
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app?username=loerei&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false" height="150" alt="trophy graph" />
+  <img src="https://raw.githubusercontent.com/loerei/loerei/trophies/trophies.svg" height="150" alt="trophy graph" />
 </div>
 
 ###
