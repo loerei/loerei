@@ -8,7 +8,7 @@
 
 <div align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=loerei.loerei&left_text=Visitors&left_color=grey&right_color=%23333333" alt="Visitor Badge" />
-  <img src="https://img.shields.io/badge/🎓_University-HUST-red" alt="University: HUST" />
+  <img src="https://img.shields.io/badge/🎓_University-HUST_(since_2025)-red" alt="University: HUST (since 2025)" />
   <img src="https://img.shields.io/badge/🍱_Hobby-マケイン-2E4A78" alt="Hobby: マケイン" />
   <img src="https://img.shields.io/badge/✨_AI_Assisted-Yes-green" alt="AI Assisted: Yes" />
 
