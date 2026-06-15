@@ -86,16 +86,20 @@
     <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=HoverSource&theme=dracula" height="120" alt="HoverSource" />
   </a>
   <img width="16" />
-  <a href="https://github.com/loerei/patchitRIGHT" target="_blank">
-    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=patchitRIGHT&theme=dracula" height="120" alt="patchitRIGHT" />
+  <a href="https://github.com/loerei/YumeShelf" target="_blank">
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=YumeShelf&theme=dracula" height="120" alt="YumeShelf" />
   </a>
 </div>
 
 <br />
 
 <div align="center">
-  <a href="https://github.com/loerei/YumeShelf" target="_blank">
-    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=YumeShelf&theme=dracula" height="120" alt="YumeShelf" />
+  <a href="https://github.com/loerei/patchitRIGHT" target="_blank">
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=patchitRIGHT&theme=dracula" height="120" alt="patchitRIGHT" />
+  </a>
+  <img width="16" />
+  <a href="https://github.com/loerei/chronicle-mcp" target="_blank">
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=chronicle-mcp&theme=dracula" height="120" alt="chronicle-mcp" />
   </a>
 </div>
 
