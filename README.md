@@ -77,21 +77,11 @@
 
 ###
 
-<h6 align="center">Featured Projects</h6>
+<h6 align="center">I made some</h6>
 
 ###
 
-<div align="center">
-  <a href="https://github.com/loerei/HoverSource" target="_blank">
-    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=HoverSource&theme=dracula" height="120" alt="HoverSource" />
-  </a>
-  <img width="16" />
-  <a href="https://github.com/loerei/YumeShelf" target="_blank">
-    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=YumeShelf&theme=dracula" height="120" alt="YumeShelf" />
-  </a>
-</div>
-
-<br />
+<h6 align="center">MCP Servers</h6>
 
 <div align="center">
   <a href="https://github.com/loerei/patchitRIGHT" target="_blank">
@@ -100,6 +90,26 @@
   <img width="16" />
   <a href="https://github.com/loerei/chronicle-mcp" target="_blank">
     <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=chronicle-mcp&theme=dracula" height="120" alt="chronicle-mcp" />
+  </a>
+</div>
+
+<br />
+
+<h6 align="center">Dev Tools</h6>
+
+<div align="center">
+  <a href="https://github.com/loerei/HoverSource" target="_blank">
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=HoverSource&theme=dracula" height="120" alt="HoverSource" />
+  </a>
+</div>
+
+<br />
+
+<h6 align="center">Applications</h6>
+
+<div align="center">
+  <a href="https://github.com/loerei/YumeShelf" target="_blank">
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=YumeShelf&theme=dracula" height="120" alt="YumeShelf" />
   </a>
 </div>
 
