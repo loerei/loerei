@@ -77,7 +77,7 @@
 
 ###
 
-<h6 align="center">I made some</h6>
+<h6 align="center">I made some...</h6>
 
 ###
 
