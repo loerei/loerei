@@ -93,8 +93,6 @@
   </a>
 </div>
 
-<br />
-
 <h6 align="center">Dev Tools</h6>
 
 <div align="center">
@@ -102,8 +100,6 @@
     <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=HoverSource&theme=dracula" height="120" alt="HoverSource" />
   </a>
 </div>
-
-<br />
 
 <h6 align="center">Applications</h6>
 
