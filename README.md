@@ -93,22 +93,17 @@
   </a>
 </div>
 
-<table align="center">
-  <tr valign="top">
-    <td align="center">
-      <h6 align="center">Dev Tools</h6>
-      <a href="https://github.com/loerei/HoverSource" target="_blank">
-        <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=HoverSource&theme=dracula" height="120" alt="HoverSource" />
-      </a>
-    </td>
-    <td align="center">
-      <h6 align="center">Applications</h6>
-      <a href="https://github.com/loerei/YumeShelf" target="_blank">
-        <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=YumeShelf&theme=dracula" height="120" alt="YumeShelf" />
-      </a>
-    </td>
-  </tr>
-</table>
+<h6 align="center">Dev Tools & Applications</h6>
+
+<div align="center">
+  <a href="https://github.com/loerei/HoverSource" target="_blank">
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=HoverSource&theme=dracula" height="120" alt="HoverSource" />
+  </a>
+  <img width="16" />
+  <a href="https://github.com/loerei/YumeShelf" target="_blank">
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=YumeShelf&theme=dracula" height="120" alt="YumeShelf" />
+  </a>
+</div>
 
 ###
 
