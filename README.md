@@ -3,7 +3,7 @@
 <h4 align="center">Desktop Apps & Developer Tools Engineer<br>Freelancer · Open Sourcer</h4>
 
 <p align="center">
-  Building Desktop Applications and WebUI Tools for our Quality of Life. I attack cat tummies.
+  Building Desktop Applications and Tools for our Quality of Life. I attack cat tummies.
 </p>
 
 <div align="center">
@@ -93,21 +93,22 @@
   </a>
 </div>
 
-<h6 align="center">Dev Tools</h6>
-
-<div align="center">
-  <a href="https://github.com/loerei/HoverSource" target="_blank">
-    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=HoverSource&theme=dracula" height="120" alt="HoverSource" />
-  </a>
-</div>
-
-<h6 align="center">Applications</h6>
-
-<div align="center">
-  <a href="https://github.com/loerei/YumeShelf" target="_blank">
-    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=YumeShelf&theme=dracula" height="120" alt="YumeShelf" />
-  </a>
-</div>
+<table align="center">
+  <tr valign="top">
+    <td align="center">
+      <h6 align="center">Dev Tools</h6>
+      <a href="https://github.com/loerei/HoverSource" target="_blank">
+        <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=HoverSource&theme=dracula" height="120" alt="HoverSource" />
+      </a>
+    </td>
+    <td align="center">
+      <h6 align="center">Applications</h6>
+      <a href="https://github.com/loerei/YumeShelf" target="_blank">
+        <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=YumeShelf&theme=dracula" height="120" alt="YumeShelf" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 ###
 
