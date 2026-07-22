@@ -93,6 +93,14 @@
   </a>
 </div>
 
+<h6 align="center">Agent Workflows & Skills</h6>
+
+<div align="center">
+  <a href="https://github.com/loerei/myskills" target="_blank">
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=myskills&theme=dracula" height="120" alt="myskills" />
+  </a>
+</div>
+
 <h6 align="center">Dev Tools & Applications</h6>
 
 <div align="center">
