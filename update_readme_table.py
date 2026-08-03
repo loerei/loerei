@@ -26,21 +26,8 @@ def fetch_repo_data(repo_name):
     with urllib.request.urlopen(req) as resp:
         return json.loads(resp.read().decode())
 
-def generate_table_html():
-    parts = [
-        '<div align="left">',
-        '  <table width="100%">',
-        '    <thead>',
-        '      <tr>',
-        '        <th width="20%" align="left">Project</th>',
-        '        <th width="18%" align="left">Category</th>',
-        '        <th width="48%" align="left">Description</th>',
-        '        <th width="14%" align="right">Tech Stack</th>',
-        '      </tr>',
-        '    </thead>',
-        '  </table>',
-        '  <hr/>',
-    ]
+def generate_projects_html():
+    parts = ['<div align="left">']
 
     for i, item in enumerate(REPOS):
         name = item["name"]
@@ -56,19 +43,13 @@ def generate_table_html():
             lang = "Markdown"
             badge = ""
 
-        row_html = (
-            f'  <table width="100%">\n'
-            f'    <tbody>\n'
-            f'      <tr>\n'
-            f'        <td width="20%" align="left"><a href="https://github.com/loerei/{name}"><b>{name}</b></a></td>\n'
-            f'        <td width="18%" align="left"><code>{cat}</code></td>\n'
-            f'        <td width="48%" align="left">{desc}</td>\n'
-            f'        <td width="14%" align="right">{badge}</td>\n'
-            f'      </tr>\n'
-            f'    </tbody>\n'
-            f'  </table>'
+        item_html = (
+            f'  <p>\n'
+            f'    <a href="https://github.com/loerei/{name}"><b>{name}</b></a> &nbsp; <code>{cat}</code> &nbsp; {badge}<br/>\n'
+            f'    <span style="color: #8b949e;">{desc}</span>\n'
+            f'  </p>'
         )
-        parts.append(row_html)
+        parts.append(item_html)
         if i < len(REPOS) - 1:
             parts.append('  <hr/>')
 
@@ -76,12 +57,12 @@ def generate_table_html():
     return "\n".join(parts)
 
 def update_readme():
-    table_content = generate_table_html()
+    content = generate_projects_html()
     with open("README.md", "r", encoding="utf-8") as f:
         readme = f.read()
 
     pattern = r"(<h3 align=\"center\">Projects</h3>\s*\n\s*\n).*?(\n\s*\n###)"
-    replacement = r"\1" + table_content + r"\2"
+    replacement = r"\1" + content + r"\2"
     
     updated_readme = re.sub(pattern, replacement, readme, flags=re.DOTALL)
     
