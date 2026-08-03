@@ -28,8 +28,16 @@ def fetch_repo_data(repo_name):
 
 def generate_table():
     lines = [
-        "| Project | Category | Description | Tech Stack |",
-        "| :--- | :--- | :--- | :--- |",
+        '<table width="100%">',
+        '  <thead>',
+        '    <tr>',
+        '      <th width="18%" align="left">Project</th>',
+        '      <th width="18%" align="left">Category</th>',
+        '      <th width="50%" align="left">Description</th>',
+        '      <th width="14%" align="right">Tech Stack</th>',
+        '    </tr>',
+        '  </thead>',
+        '  <tbody>',
     ]
     for item in REPOS:
         name = item["name"]
@@ -39,10 +47,19 @@ def generate_table():
             desc = data.get("description", "") or ""
             lang = data.get("language", "Markdown") or "Markdown"
             color = COLOR_MAP.get(lang, "555555")
-            badge = f"![{lang}](https://img.shields.io/badge/-{lang}-{color}?logo={lang.lower()}&logoColor=white)"
-            lines.append(f"| [**{name}**](https://github.com/loerei/{name}) | `{cat}` | {desc} | {badge} |")
+            badge = f'<img src="https://img.shields.io/badge/-{lang}-{color}?logo={lang.lower()}&logoColor=white" alt="{lang}" />'
+            row = (
+                f'    <tr>\n'
+                f'      <td align="left"><a href="https://github.com/loerei/{name}"><b>{name}</b></a></td>\n'
+                f'      <td align="left"><code>{cat}</code></td>\n'
+                f'      <td align="left">{desc}</td>\n'
+                f'      <td align="right">{badge}</td>\n'
+                f'    </tr>'
+            )
+            lines.append(row)
         except Exception as e:
             print(f"Error fetching {name}: {e}")
+    lines.append('  </tbody>\n</table>')
     return "\n".join(lines)
 
 def update_readme():

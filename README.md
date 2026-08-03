@@ -145,12 +145,42 @@
 
 <h3 align="center">Projects</h3>
 
-| Project | Category | Description | Tech Stack |
-| :--- | :--- | :--- | :--- |
-| [**patchitRIGHT**](https://github.com/loerei/patchitRIGHT) | `MCP Server` | patchitRIGHT: An AST-bounded secure code-writing MCP server with transactional multi-file refactoring and rollback. | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) |
-| [**chronicle-mcp**](https://github.com/loerei/chronicle-mcp) | `MCP Server` | A local Model Context Protocol (MCP) server that indexes, synchronizes, and exposes agent conversation logs, tool execution steps, subagent hierarchies, and execution benchmarks from Antigravity and Cursor workspaces. | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white) |
-| [**HoverSource**](https://github.com/loerei/HoverSource) | `Dev Tool` | Zero-invasive UI-to-Code inspector. Hover any element, press Alt+C, paste to your AI agent, and save 94.5% tokens for UI tasks in your giant codebase. | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white) |
-| [**YumeShelf**](https://github.com/loerei/YumeShelf) | `Desktop App` | A minimalist desktop game library launcher and save editor for VN-type-of-games, rescuing you from drowning in File Explorer. | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white) |
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="18%" align="left">Project</th>
+      <th width="18%" align="left">Category</th>
+      <th width="50%" align="left">Description</th>
+      <th width="14%" align="right">Tech Stack</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="left"><a href="https://github.com/loerei/patchitRIGHT"><b>patchitRIGHT</b></a></td>
+      <td align="left"><code>MCP Server</code></td>
+      <td align="left">patchitRIGHT: An AST-bounded secure code-writing MCP server with transactional multi-file refactoring and rollback.</td>
+      <td align="right"><img src="https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white" alt="Python" /></td>
+    </tr>
+    <tr>
+      <td align="left"><a href="https://github.com/loerei/chronicle-mcp"><b>chronicle-mcp</b></a></td>
+      <td align="left"><code>MCP Server</code></td>
+      <td align="left">A local Model Context Protocol (MCP) server that indexes, synchronizes, and exposes agent conversation logs, tool execution steps, subagent hierarchies, and execution benchmarks from Antigravity and Cursor workspaces.</td>
+      <td align="right"><img src="https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript" /></td>
+    </tr>
+    <tr>
+      <td align="left"><a href="https://github.com/loerei/HoverSource"><b>HoverSource</b></a></td>
+      <td align="left"><code>Dev Tool</code></td>
+      <td align="left">Zero-invasive UI-to-Code inspector. Hover any element, press Alt+C, paste to your AI agent, and save 94.5% tokens for UI tasks in your giant codebase.</td>
+      <td align="right"><img src="https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript" /></td>
+    </tr>
+    <tr>
+      <td align="left"><a href="https://github.com/loerei/YumeShelf"><b>YumeShelf</b></a></td>
+      <td align="left"><code>Desktop App</code></td>
+      <td align="left">A minimalist desktop game library launcher and save editor for VN-type-of-games, rescuing you from drowning in File Explorer.</td>
+      <td align="right"><img src="https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript" /></td>
+    </tr>
+  </tbody>
+</table>
 
 ###
 
