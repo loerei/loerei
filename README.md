@@ -139,11 +139,11 @@
 
 | Project | Category | Description | Tech Stack |
 | :--- | :--- | :--- | :--- |
-| [**patchitRIGHT**](https://github.com/loerei/patchitRIGHT) | `MCP Server` | AST-bounded secure code-writing MCP server with transactional multi-file refactoring and rollback. | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) |
-| [**chronicle-mcp**](https://github.com/loerei/chronicle-mcp) | `MCP Server` | Local MCP server indexing conversation logs, tool execution steps, subagent hierarchies & execution benchmarks. | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white) |
-| [**myskills**](https://github.com/loerei/myskills) | `Agent Skills` | Personal collection of custom AI agent skills and automated workflows. | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) |
-| [**HoverSource**](https://github.com/loerei/HoverSource) | `Dev Tool` | Zero-invasive UI-to-Code inspector. Hover any element, press Alt+C, paste to your AI agent, and save 94.5% tokens. | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white) |
-| [**YumeShelf**](https://github.com/loerei/YumeShelf) | `Desktop App` | Minimalist desktop game library launcher and save editor for VN-type-of-games, rescuing you from drowning in File Explorer. | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white) |
+| [**patchitRIGHT**](https://github.com/loerei/patchitRIGHT) | `MCP Server` | patchitRIGHT: An AST-bounded secure code-writing MCP server with transactional multi-file refactoring and rollback. | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) |
+| [**chronicle-mcp**](https://github.com/loerei/chronicle-mcp) | `MCP Server` | A local Model Context Protocol (MCP) server that indexes, synchronizes, and exposes agent conversation logs, tool execution steps, subagent hierarchies, and execution benchmarks from Antigravity and Cursor workspaces. | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white) |
+| [**myskills**](https://github.com/loerei/myskills) | `Agent Skills` | My custom AI agent skills | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) |
+| [**HoverSource**](https://github.com/loerei/HoverSource) | `Dev Tool` | Zero-invasive UI-to-Code inspector. Hover any element, press Alt+C, paste to your AI agent, and save 94.5% tokens for UI tasks in your giant codebase. | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white) |
+| [**YumeShelf**](https://github.com/loerei/YumeShelf) | `Desktop App` | A minimalist desktop game library launcher and save editor for VN-type-of-games, rescuing you from drowning in File Explorer. | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white) |
 
 ###
 
