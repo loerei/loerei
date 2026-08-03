@@ -9,15 +9,23 @@ REPOS = [
     {"name": "YumeShelf", "category": "Desktop App"},
 ]
 
-COLOR_MAP = {
-    "Python": "3776AB",
-    "TypeScript": "3178C6",
-    "JavaScript": "F7DF1E",
-    "Rust": "000000",
-    "C++": "00599C",
-    "C#": "239120",
-    "HTML": "E34F26",
-    "CSS": "1572B6",
+FALLBACK_DATA = {
+    "patchitRIGHT": {
+        "description": "patchitRIGHT: An AST-bounded secure code-writing MCP server with transactional multi-file refactoring and rollback.",
+        "language": "Python"
+    },
+    "chronicle-mcp": {
+        "description": "A local Model Context Protocol (MCP) server that indexes, synchronizes, and exposes agent conversation logs, tool execution steps, subagent hierarchies, and execution benchmarks from Antigravity and Cursor workspaces.",
+        "language": "TypeScript"
+    },
+    "HoverSource": {
+        "description": "Zero-invasive UI-to-Code inspector. Hover any element, press Alt+C, paste to your AI agent, and save 94.5% tokens for UI tasks in your giant codebase.",
+        "language": "TypeScript"
+    },
+    "YumeShelf": {
+        "description": "A minimalist desktop game library launcher and save editor for VN-type-of-games, rescuing you from drowning in File Explorer.",
+        "language": "TypeScript"
+    }
 }
 
 def fetch_repo_data(repo_name):
@@ -32,20 +40,19 @@ def generate_projects_html():
     for i, item in enumerate(REPOS):
         name = item["name"]
         cat = item["category"]
+        fallback = FALLBACK_DATA.get(name, {})
         try:
             data = fetch_repo_data(name)
-            desc = data.get("description", "") or ""
-            lang = data.get("language", "Markdown") or "Markdown"
-            color = COLOR_MAP.get(lang, "555555")
-            badge = f'<img src="https://img.shields.io/badge/-{lang}-{color}?logo={lang.lower()}&logoColor=white" alt="{lang}" />'
-        except Exception:
-            desc = ""
-            lang = "Markdown"
-            badge = ""
+            desc = data.get("description") or fallback.get("description", "")
+            lang = data.get("language") or fallback.get("language", "TypeScript")
+        except Exception as e:
+            print(f"Using fallback for {name} due to fetch error: {e}")
+            desc = fallback.get("description", "")
+            lang = fallback.get("language", "TypeScript")
 
         item_html = (
             f'  <p>\n'
-            f'    <a href="https://github.com/loerei/{name}"><b>{name}</b></a> &nbsp; <code>{cat}</code> &nbsp; {badge}<br/>\n'
+            f'    <a href="https://github.com/loerei/{name}"><b>{name}</b></a> &nbsp; <code>{cat}</code> &nbsp; <code>{lang}</code><br/>\n'
             f'    <span style="color: #8b949e;">{desc}</span>\n'
             f'  </p>'
         )
