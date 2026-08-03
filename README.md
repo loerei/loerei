@@ -135,41 +135,15 @@
 
 ###
 
-<h6 align="center">I made some...</h6>
+<h3 align="center">🛠️ Featured Projects & Tools</h3>
 
-###
-
-<h6 align="center">MCP Servers</h6>
-
-<div align="center">
-  <a href="https://github.com/loerei/patchitRIGHT" target="_blank">
-    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=patchitRIGHT&bg_color=1f222d&title_color=4892ff&text_color=ffffff&icon_color=4bce52&border_color=282a38" height="120" alt="patchitRIGHT" />
-  </a>
-  <img width="16" />
-  <a href="https://github.com/loerei/chronicle-mcp" target="_blank">
-    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=chronicle-mcp&bg_color=1f222d&title_color=4892ff&text_color=ffffff&icon_color=4bce52&border_color=282a38" height="120" alt="chronicle-mcp" />
-  </a>
-</div>
-
-<h6 align="center">Agent Workflows & Skills</h6>
-
-<div align="center">
-  <a href="https://github.com/loerei/myskills" target="_blank">
-    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=myskills&bg_color=1f222d&title_color=4892ff&text_color=ffffff&icon_color=4bce52&border_color=282a38" height="120" alt="myskills" />
-  </a>
-</div>
-
-<h6 align="center">Dev Tools & Applications</h6>
-
-<div align="center">
-  <a href="https://github.com/loerei/HoverSource" target="_blank">
-    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=HoverSource&bg_color=1f222d&title_color=4892ff&text_color=ffffff&icon_color=4bce52&border_color=282a38" height="120" alt="HoverSource" />
-  </a>
-  <img width="16" />
-  <a href="https://github.com/loerei/YumeShelf" target="_blank">
-    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=YumeShelf&bg_color=1f222d&title_color=4892ff&text_color=ffffff&icon_color=4bce52&border_color=282a38" height="120" alt="YumeShelf" />
-  </a>
-</div>
+| Project | Category | Description | Tech Stack |
+| :--- | :--- | :--- | :--- |
+| [**patchitRIGHT**](https://github.com/loerei/patchitRIGHT) | `MCP Server` | AST-bounded secure code-writing MCP server with transactional multi-file refactoring and rollback. | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) |
+| [**chronicle-mcp**](https://github.com/loerei/chronicle-mcp) | `MCP Server` | Local MCP server indexing conversation logs, tool execution steps, subagent hierarchies & execution benchmarks. | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white) |
+| [**myskills**](https://github.com/loerei/myskills) | `Agent Skills` | Personal collection of custom AI agent skills and automated workflows. | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) |
+| [**HoverSource**](https://github.com/loerei/HoverSource) | `Dev Tool` | Zero-invasive UI-to-Code inspector. Hover any element, press Alt+C, paste to your AI agent, and save 94.5% tokens. | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white) |
+| [**YumeShelf**](https://github.com/loerei/YumeShelf) | `Desktop App` | Minimalist desktop game library launcher and save editor for VN-type-of-games, rescuing you from drowning in File Explorer. | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white) |
 
 ###
 
