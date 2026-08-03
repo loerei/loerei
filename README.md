@@ -1,3 +1,61 @@
+<div align="center" style="width:100%;">
+    <picture>
+        <source
+            media="(prefers-color-scheme: dark)"
+            srcset="https://github-readme-streaks-main.vercel.app/?user=loerei&background=1f222d&border=ffffff&border_radius=8&card_height=195&card_width=450&currStreakLabel=4892ff&currStreakNum=ffffff&date_format=%5BY%20%5DM%20j&dates=7f8f9f&disable_animations=false&exclude_days=&excludeDaysLabel=282a38&fire=4bae52&hide_border=true&hide_current_streak=false&hide_longest_streak=false&hide_total_contributions=false&locale=en&mode=weekly&ring=1a55e6&short_numbers=false&sideLabels=ffffff&sideNums=4892ff&starting_year=2024&stroke=1f222d&theme=github-dark-blue&type=svg"
+        />
+        <source
+            media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+            srcset="https://github-readme-streaks-main.vercel.app/?user=loerei&background=f0f2f4&border=000000&border_radius=8&card_height=195&card_width=450&currStreakLabel=2567e8&currStreakNum=181a1e&date_format=%5BY%20%5DM%20j&dates=7f8f9f&disable_animations=false&exclude_days=&excludeDaysLabel=29743d&fire=29b43d&hide_border=true&hide_current_streak=false&hide_longest_streak=false&hide_total_contributions=false&locale=en&mode=weekly&ring=0e50d2&short_numbers=false&sideLabels=181a1e&sideNums=2567e8&starting_year=2024&stroke=f0f2f4&theme=default&type=svg"
+        />
+        <img
+            align="center"
+            alt="GitHub Activity Streaks"
+            src="https://github-readme-streaks-main.vercel.app/?user=loerei&background=1f222d&border=ffffff&border_radius=8&card_height=195&card_width=450&currStreakLabel=4892ff&currStreakNum=ffffff&date_format=%5BY%20%5DM%20j&dates=7f8f9f&disable_animations=false&exclude_days=&excludeDaysLabel=282a38&fire=4bae52&hide_border=true&hide_current_streak=false&hide_longest_streak=false&hide_total_contributions=false&locale=en&mode=weekly&ring=1a55e6&short_numbers=false&sideLabels=ffffff&sideNums=4892ff&starting_year=2024&stroke=1f222d&theme=github-dark-blue&type=svg"
+            style="width:48%;"
+        />
+    </picture>
+    <img
+        align="center"
+        style="width:2%;"
+    />
+    <picture>
+        <source
+            media="(prefers-color-scheme: dark)"
+            srcset="https://github-readme-statistics-main.vercel.app/api/?username=loerei&bg_color=1f222d&border_color=ffffff&border_radius=8&cache_seconds=21600&card_height=&card_width=450&count_private=true&custom_title=Statistics&disable_animations=false&exclude_repo=&hide=contribs&hide_border=true&hide_rank=false&hide_title=true&icon_color=4bce52&include_all_commits=true&line_height=30&locale=en&number_format=long&rank_icon=default&ring_color=1a55e6&show=prs_merged&show_icons=true&text_bold=false&text_color=ffffff&theme=github_dark&title_color=4892ff"
+        />
+        <source
+            media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+            srcset="https://github-readme-statistics-main.vercel.app/api/?username=loerei&bg_color=f0f2f4&border_color=000000&border_radius=8&cache_seconds=3600&card_height=&card_width=450&count_private=true&custom_title=Statistics&disable_animations=false&exclude_repo=&hide=contribs&hide_border=true&hide_rank=false&hide_title=true&icon_color=29943d&include_all_commits=true&line_height=30&locale=en&number_format=long&rank_icon=default&ring_color=0e50d2&show=prs_merged&show_icons=true&text_bold=false&text_color=181a1e&theme=default&title_color=0e50d2"
+        />
+        <img
+            align="center"
+            alt="GitHub User Statistics"
+            src="https://github-readme-statistics-main.vercel.app/api/?username=loerei&bg_color=1f222d&border_color=ffffff&border_radius=8&cache_seconds=21600&card_height=&card_width=450&count_private=true&custom_title=Statistics&disable_animations=false&exclude_repo=&hide=contribs&hide_border=true&hide_rank=false&hide_title=true&icon_color=4bce52&include_all_commits=true&line_height=30&locale=en&number_format=long&rank_icon=default&ring_color=1a55e6&show=prs_merged&show_icons=true&text_bold=false&text_color=ffffff&theme=github_dark&title_color=4892ff"
+            style="width:48%;"
+        />
+    </picture>
+</div>
+<br/>
+<picture>
+    <source
+        media="(prefers-color-scheme: dark)"
+        srcset="https://github-readme-contributions-main.vercel.app/graph/?username=loerei&area=true&area_color=1a55e6&bg_color=1f222d&color=ffffff&custom_title=Last%2030%20Days&days=30&from=&grid=true&height=400&hide_border=true&hide_title=false&line=1a55e6&point=4bce52&radius=8&theme=github&title_color=4892ff&to="
+    />
+    <source
+        media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+        srcset="https://github-readme-contributions-main.vercel.app/graph/?username=loerei&area=true&area_color=0e50d2&bg_color=f0f2f4&color=181a1e&custom_title=Last%2030%20Days&days=30&from=&grid=true&height=400&hide_border=true&hide_title=false&line=0e50d2&point=29b43d&radius=8&theme=github&title_color=0e50d2&to="
+    />
+    <img
+        align="left"
+        alt="GitHub Contributions Graph"
+        src="https://github-readme-contributions-main.vercel.app/graph/?username=loerei&area=true&area_color=1a55e6&bg_color=1f222d&color=ffffff&custom_title=Last%2030%20Days&days=30&from=&grid=true&height=400&hide_border=true&hide_title=false&line=1a55e6&point=4bce52&radius=8&theme=github&title_color=4892ff&to="
+        style="width:99%;"
+    />
+</picture>
+
+&nbsp;
+
 <h1 align="center">Loerei</h1>
 
 <h4 align="center">Desktop Apps & Developer Tools Engineer<br>Freelancer · Open Sourcer</h4>
@@ -85,11 +143,11 @@
 
 <div align="center">
   <a href="https://github.com/loerei/patchitRIGHT" target="_blank">
-    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=patchitRIGHT&theme=dracula" height="120" alt="patchitRIGHT" />
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=patchitRIGHT&bg_color=1f222d&title_color=4892ff&text_color=ffffff&icon_color=4bce52&border_color=282a38" height="120" alt="patchitRIGHT" />
   </a>
   <img width="16" />
   <a href="https://github.com/loerei/chronicle-mcp" target="_blank">
-    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=chronicle-mcp&theme=dracula" height="120" alt="chronicle-mcp" />
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=chronicle-mcp&bg_color=1f222d&title_color=4892ff&text_color=ffffff&icon_color=4bce52&border_color=282a38" height="120" alt="chronicle-mcp" />
   </a>
 </div>
 
@@ -97,7 +155,7 @@
 
 <div align="center">
   <a href="https://github.com/loerei/myskills" target="_blank">
-    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=myskills&theme=dracula" height="120" alt="myskills" />
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=myskills&bg_color=1f222d&title_color=4892ff&text_color=ffffff&icon_color=4bce52&border_color=282a38" height="120" alt="myskills" />
   </a>
 </div>
 
@@ -105,25 +163,15 @@
 
 <div align="center">
   <a href="https://github.com/loerei/HoverSource" target="_blank">
-    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=HoverSource&theme=dracula" height="120" alt="HoverSource" />
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=HoverSource&bg_color=1f222d&title_color=4892ff&text_color=ffffff&icon_color=4bce52&border_color=282a38" height="120" alt="HoverSource" />
   </a>
   <img width="16" />
   <a href="https://github.com/loerei/YumeShelf" target="_blank">
-    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=YumeShelf&theme=dracula" height="120" alt="YumeShelf" />
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=loerei&repo=YumeShelf&bg_color=1f222d&title_color=4892ff&text_color=ffffff&icon_color=4bce52&border_color=282a38" height="120" alt="YumeShelf" />
   </a>
 </div>
 
 ###
-
-<h6 align="center">GitHub Statistics</h6>
-
-###
-
-<div align="center">
-  <img src="https://github-readme-stats.shion.dev/api?username=loerei&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph" />
-  <img width="16" />
-  <img src="https://streak-stats.demolab.com?user=loerei&theme=dracula&hide_border=false&border_radius=5" height="150" alt="streak graph" />
-</div>
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/loerei/loerei/trophies/trophies.svg?v=1" height="150" alt="trophy graph" />

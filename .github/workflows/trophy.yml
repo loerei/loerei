@@ -20,7 +20,7 @@ jobs:
       - name: Generate trophy card
         uses: soulteary/github-profile-trophy-action@v1.0.0
         with:
-          options: 'username=loerei&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false'
+          options: 'username=loerei&theme=onedark&column=-1&row=1&margin-w=8&margin-h=8&no-bg=true&no-frame=false'
           path: output/trophies.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
