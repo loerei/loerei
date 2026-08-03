@@ -5,7 +5,6 @@ import re
 REPOS = [
     {"name": "patchitRIGHT", "category": "MCP Server"},
     {"name": "chronicle-mcp", "category": "MCP Server"},
-    {"name": "myskills", "category": "Agent Skills"},
     {"name": "HoverSource", "category": "Dev Tool"},
     {"name": "YumeShelf", "category": "Desktop App"},
 ]
