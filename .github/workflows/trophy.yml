@@ -20,6 +20,8 @@ jobs:
           python-version: '3.x'
 
       - name: Update README Projects Table from GitHub API
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python update_readme_table.py
 
       - name: Commit & Push README changes

@@ -1,6 +1,7 @@
 import urllib.request
 import json
 import re
+import os
 
 REPOS = [
     {"name": "patchitRIGHT", "category": "MCP Server"},
@@ -30,7 +31,11 @@ FALLBACK_DATA = {
 
 def fetch_repo_data(repo_name):
     url = f"https://api.github.com/repos/loerei/{repo_name}"
-    req = urllib.request.Request(url, headers={"User-Agent": "Python-README-Updater"})
+    headers = {"User-Agent": "Python-README-Updater"}
+    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    req = urllib.request.Request(url, headers=headers)
     with urllib.request.urlopen(req) as resp:
         return json.loads(resp.read().decode())
 
