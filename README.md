@@ -148,22 +148,22 @@
 <div align="left">
   <p>
     <a href="https://github.com/loerei/patchitRIGHT"><b>patchitRIGHT</b></a> &nbsp; <code>MCP Server</code> &nbsp; <code>Python</code><br/>
-    <span style="color: #8b949e;">patchitRIGHT: An AST-bounded secure code-writing MCP server with transactional multi-file refactoring and rollback.</span>
+    <span align="justify" style="display: block; text-align: justify; color: #8b949e; margin-top: 4px;">patchitRIGHT: An AST-bounded secure code-writing MCP server with transactional multi-file refactoring and rollback.</span>
   </p>
   <hr/>
   <p>
     <a href="https://github.com/loerei/chronicle-mcp"><b>chronicle-mcp</b></a> &nbsp; <code>MCP Server</code> &nbsp; <code>TypeScript</code><br/>
-    <span style="color: #8b949e;">A local Model Context Protocol (MCP) server that indexes, synchronizes, and exposes agent conversation logs, tool execution steps, subagent hierarchies, and execution benchmarks from Antigravity and Cursor workspaces.</span>
+    <span align="justify" style="display: block; text-align: justify; color: #8b949e; margin-top: 4px;">A local Model Context Protocol (MCP) server that indexes, synchronizes, and exposes agent conversation logs, tool execution steps, subagent hierarchies, and execution benchmarks from Antigravity and Cursor workspaces.</span>
   </p>
   <hr/>
   <p>
     <a href="https://github.com/loerei/HoverSource"><b>HoverSource</b></a> &nbsp; <code>Dev Tool</code> &nbsp; <code>TypeScript</code><br/>
-    <span style="color: #8b949e;">Zero-invasive UI-to-Code inspector. Hover any element, press Alt+C, paste to your AI agent, and save 94.5% tokens for UI tasks in your giant codebase.</span>
+    <span align="justify" style="display: block; text-align: justify; color: #8b949e; margin-top: 4px;">Zero-invasive UI-to-Code inspector. Hover any element, press Alt+C, paste to your AI agent, and save 94.5% tokens for UI tasks in your giant codebase.</span>
   </p>
   <hr/>
   <p>
     <a href="https://github.com/loerei/YumeShelf"><b>YumeShelf</b></a> &nbsp; <code>Desktop App</code> &nbsp; <code>TypeScript</code><br/>
-    <span style="color: #8b949e;">A minimalist desktop game library launcher and save editor for VN-type-of-games, rescuing you from drowning in File Explorer.</span>
+    <span align="justify" style="display: block; text-align: justify; color: #8b949e; margin-top: 4px;">A minimalist desktop game library launcher and save editor for VN-type-of-games, rescuing you from drowning in File Explorer.</span>
   </p>
 </div>
 

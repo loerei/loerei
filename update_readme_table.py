@@ -53,7 +53,7 @@ def generate_projects_html():
         item_html = (
             f'  <p>\n'
             f'    <a href="https://github.com/loerei/{name}"><b>{name}</b></a> &nbsp; <code>{cat}</code> &nbsp; <code>{lang}</code><br/>\n'
-            f'    <span style="color: #8b949e;">{desc}</span>\n'
+            f'    <span align="justify" style="display: block; text-align: justify; color: #8b949e; margin-top: 4px;">{desc}</span>\n'
             f'  </p>'
         )
         parts.append(item_html)
