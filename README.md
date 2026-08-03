@@ -135,7 +135,7 @@
 
 ###
 
-<h3 align="center">🛠️ Featured Projects & Tools</h3>
+<h3 align="center">Projects</h3>
 
 | Project | Category | Description | Tech Stack |
 | :--- | :--- | :--- | :--- |

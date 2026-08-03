@@ -51,8 +51,8 @@ def update_readme():
     with open("README.md", "r", encoding="utf-8") as f:
         readme = f.read()
 
-    # Pattern to replace the table under Featured Projects & Tools
-    pattern = r"(<h3 align=\"center\">🛠️ Featured Projects & Tools</h3>\s*\n\s*\n).*?(\n\s*\n###)"
+    # Pattern to replace the table under Projects
+    pattern = r"(<h3 align=\"center\">Projects</h3>\s*\n\s*\n).*?(\n\s*\n###)"
     replacement = r"\1" + table_content + r"\2"
     
     updated_readme = re.sub(pattern, replacement, readme, flags=re.DOTALL)
