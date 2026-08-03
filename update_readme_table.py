@@ -22,54 +22,89 @@ COLOR_MAP = {
 
 def fetch_repo_data(repo_name):
     url = f"https://api.github.com/repos/loerei/{repo_name}"
-    req = urllib.request.Request(url, headers={"User-Agent": "Python-README-Updater"})
+    req = urllib.request.Request(url, headers={"User-Agent": "Python-SVG-Updater"})
     with urllib.request.urlopen(req) as resp:
         return json.loads(resp.read().decode())
 
-def generate_table():
-    lines = [
-        '<table width="100%">',
-        '  <thead>',
-        '    <tr>',
-        '      <th width="18%" align="left">Project</th>',
-        '      <th width="18%" align="left">Category</th>',
-        '      <th width="50%" align="left">Description</th>',
-        '      <th width="14%" align="right">Tech Stack</th>',
-        '    </tr>',
-        '  </thead>',
-        '  <tbody>',
+def create_svg():
+    width = 900
+    row_height = 55
+    header_height = 45
+    total_height = header_height + len(REPOS) * row_height + 10
+
+    svg_parts = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 {width} {total_height}" width="100%">',
+        '  <style>',
+        '    .header { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600; fill: #ffffff; }',
+        '    .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600; fill: #4892ff; }',
+        '    .desc { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13px; fill: #c9d1d9; }',
+        '    .tag-bg { fill: #282a38; rx: 4px; ry: 4px; }',
+        '    .tag-text { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; font-size: 12px; fill: #8b949e; }',
+        '  </style>',
+        f'  <rect width="{width}" height="{total_height}" fill="transparent" />',
+        '  <text x="15" y="28" class="header">Project</text>',
+        '  <text x="190" y="28" class="header">Category</text>',
+        '  <text x="330" y="28" class="header">Description</text>',
+        f'  <text x="{width - 25}" y="28" class="header" text-anchor="end">Tech Stack</text>',
+        f'  <line x1="15" y1="42" x2="{width - 15}" y2="42" stroke="#6e7681" stroke-width="1.5" />',
     ]
-    for item in REPOS:
+
+    y_cursor = header_height
+
+    for i, item in enumerate(REPOS):
         name = item["name"]
         cat = item["category"]
         try:
             data = fetch_repo_data(name)
             desc = data.get("description", "") or ""
             lang = data.get("language", "Markdown") or "Markdown"
-            color = COLOR_MAP.get(lang, "555555")
-            badge = f'<img src="https://img.shields.io/badge/-{lang}-{color}?logo={lang.lower()}&logoColor=white" alt="{lang}" />'
-            row = (
-                f'    <tr>\n'
-                f'      <td align="left"><a href="https://github.com/loerei/{name}"><b>{name}</b></a></td>\n'
-                f'      <td align="left"><code>{cat}</code></td>\n'
-                f'      <td align="left">{desc}</td>\n'
-                f'      <td align="right">{badge}</td>\n'
-                f'    </tr>'
-            )
-            lines.append(row)
-        except Exception as e:
-            print(f"Error fetching {name}: {e}")
-    lines.append('  </tbody>\n</table>')
-    return "\n".join(lines)
+        except Exception:
+            desc = ""
+            lang = "Markdown"
+
+        if len(desc) > 75:
+            desc = desc[:72] + "..."
+
+        y_text = y_cursor + 32
+        y_line = y_cursor + row_height
+        lang_color = COLOR_MAP.get(lang, "555555")
+
+        svg_parts.extend([
+            f'  <a xlink:href="https://github.com/loerei/{name}" target="_blank">',
+            f'    <text x="15" y="{y_text}" class="title">{name}</text>',
+            '  </a>',
+            f'  <rect x="190" y="{y_text - 14}" width="{len(cat) * 8 + 12}" height="20" class="tag-bg" />',
+            f'  <text x="196" y="{y_text}" class="tag-text">{cat}</text>',
+            f'  <text x="330" y="{y_text}" class="desc">{desc}</text>',
+            f'  <rect x="{width - 105}" y="{y_text - 15}" width="80" height="20" rx="4" fill="#{lang_color}" />',
+            f'  <text x="{width - 65}" y="{y_text}" font-family="-apple-system, sans-serif" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">{lang}</text>',
+        ])
+
+        if i < len(REPOS) - 1:
+            svg_parts.append(f'  <line x1="15" y1="{y_line}" x2="{width - 15}" y2="{y_line}" stroke="#30363d" stroke-width="1" />')
+
+        y_cursor += row_height
+
+    svg_parts.append('</svg>')
+
+    with open("projects-table.svg", "w", encoding="utf-8") as f:
+        f.write("\n".join(svg_parts))
+    print("projects-table.svg created successfully!")
 
 def update_readme():
-    table_content = generate_table()
+    create_svg()
+    
     with open("README.md", "r", encoding="utf-8") as f:
         readme = f.read()
 
-    # Pattern to replace the table under Projects
+    replacement_block = (
+        '<div align="center">\n'
+        '  <img src="projects-table.svg" width="100%" alt="Projects" />\n'
+        '</div>'
+    )
+
     pattern = r"(<h3 align=\"center\">Projects</h3>\s*\n\s*\n).*?(\n\s*\n###)"
-    replacement = r"\1" + table_content + r"\2"
+    replacement = r"\1" + replacement_block + r"\2"
     
     updated_readme = re.sub(pattern, replacement, readme, flags=re.DOTALL)
     

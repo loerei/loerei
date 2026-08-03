@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 275" width="100%">
+  <style>
+    .header { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600; fill: #ffffff; }
+    .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600; fill: #4892ff; }
+    .desc { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13px; fill: #c9d1d9; }
+    .tag-bg { fill: #282a38; rx: 4px; ry: 4px; }
+    .tag-text { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; font-size: 12px; fill: #8b949e; }
+  </style>
+  <rect width="900" height="275" fill="transparent" />
+  <text x="15" y="28" class="header">Project</text>
+  <text x="190" y="28" class="header">Category</text>
+  <text x="330" y="28" class="header">Description</text>
+  <text x="875" y="28" class="header" text-anchor="end">Tech Stack</text>
+  <line x1="15" y1="42" x2="885" y2="42" stroke="#6e7681" stroke-width="1.5" />
+  <a xlink:href="https://github.com/loerei/patchitRIGHT" target="_blank">
+    <text x="15" y="77" class="title">patchitRIGHT</text>
+  </a>
+  <rect x="190" y="63" width="92" height="20" class="tag-bg" />
+  <text x="196" y="77" class="tag-text">MCP Server</text>
+  <text x="330" y="77" class="desc">patchitRIGHT: An AST-bounded secure code-writing MCP server with transac...</text>
+  <rect x="795" y="62" width="80" height="20" rx="4" fill="#3776AB" />
+  <text x="835" y="77" font-family="-apple-system, sans-serif" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">Python</text>
+  <line x1="15" y1="100" x2="885" y2="100" stroke="#30363d" stroke-width="1" />
+  <a xlink:href="https://github.com/loerei/chronicle-mcp" target="_blank">
+    <text x="15" y="132" class="title">chronicle-mcp</text>
+  </a>
+  <rect x="190" y="118" width="92" height="20" class="tag-bg" />
+  <text x="196" y="132" class="tag-text">MCP Server</text>
+  <text x="330" y="132" class="desc">A local Model Context Protocol (MCP) server that indexes, synchronizes, ...</text>
+  <rect x="795" y="117" width="80" height="20" rx="4" fill="#3178C6" />
+  <text x="835" y="132" font-family="-apple-system, sans-serif" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">TypeScript</text>
+  <line x1="15" y1="155" x2="885" y2="155" stroke="#30363d" stroke-width="1" />
+  <a xlink:href="https://github.com/loerei/HoverSource" target="_blank">
+    <text x="15" y="187" class="title">HoverSource</text>
+  </a>
+  <rect x="190" y="173" width="76" height="20" class="tag-bg" />
+  <text x="196" y="187" class="tag-text">Dev Tool</text>
+  <text x="330" y="187" class="desc">Zero-invasive UI-to-Code inspector. Hover any element, press Alt+C, past...</text>
+  <rect x="795" y="172" width="80" height="20" rx="4" fill="#3178C6" />
+  <text x="835" y="187" font-family="-apple-system, sans-serif" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">TypeScript</text>
+  <line x1="15" y1="210" x2="885" y2="210" stroke="#30363d" stroke-width="1" />
+  <a xlink:href="https://github.com/loerei/YumeShelf" target="_blank">
+    <text x="15" y="242" class="title">YumeShelf</text>
+  </a>
+  <rect x="190" y="228" width="100" height="20" class="tag-bg" />
+  <text x="196" y="242" class="tag-text">Desktop App</text>
+  <text x="330" y="242" class="desc">A minimalist desktop game library launcher and save editor for VN-type-o...</text>
+  <rect x="795" y="227" width="80" height="20" rx="4" fill="#3178C6" />
+  <text x="835" y="242" font-family="-apple-system, sans-serif" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">TypeScript</text>
+</svg>
