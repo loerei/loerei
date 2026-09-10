@@ -125,7 +125,7 @@
 ###
 
 <div align="center">
-  <a href="https://discord.com/users/tetehahahahaha" target="_blank">
+  <a href="https://discord.com/users/1440660675314585732" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=flat" height="35" alt="discord logo" />
   </a>
   <a href="mailto:sayusumat@gmail.com" target="_blank">
